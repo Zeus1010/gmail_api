@@ -5,12 +5,15 @@ const bodyParser = require('body-parser');
 
 router.use(bodyParser.json());
 
+
+/* authentication codes removed */
+
 var auth = {
   type: 'oauth2',
-  user: 'vivek.bhanushali16@siesgst.ac.in',
-  clientId: '14769239873-hkesi4edl9neccpv3n3aid5h0g8bke18.apps.googleusercontent.com',
-  clientSecret: '8iqKV8OfwVm-vtMIRbdUM1cU',
-  refreshToken: '1//04h_f4w1Jn8B7CgYIARAAGAQSNwF-L9Irc4RMLVmf4m8sTgqH7_NYxnmU1b2GlDcCy4sPLxrOXU0U8XpNB2qy82zusAR5UPqfYHU',
+  user: '@gmail.com',
+  clientId: '....',
+  clientSecret: ''....',
+  refreshToken: '....',,
 };
 
 /* GET home page. */
